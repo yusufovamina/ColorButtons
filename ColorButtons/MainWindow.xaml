@@ -1,0 +1,36 @@
+﻿<Window x:Class="ColorButtons.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ColorButtons"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="267*" />
+            <ColumnDefinition Width="133*"/>
+        </Grid.ColumnDefinitions>
+        <WrapPanel Grid.Column="0" Height="434">
+            <Button Content="Navy" Height="Auto" Width="Auto" Margin="2.0" Foreground="Navy" FontSize="16" FontWeight="Bold"/>
+            <Button Content="Blue" Height="Auto" Width="Auto" Margin="2.0" Foreground="Blue" FontSize="16" FontWeight="Bold"/>
+            <Button Content="Aqua" Height="Auto" Width="Auto" Margin="2.0" Foreground="Aqua" FontSize="16" FontWeight="Bold"/>
+            <Button Content="Teal" Height="Auto" Width="Auto" Margin="2.0" Foreground="Teal" FontSize="16" FontWeight="Bold"/>
+            <Button Content="Olive" Height="Auto" Width="Auto" Margin="2.0" Foreground="Olive" FontSize="16" FontWeight="Bold"/>
+            <Button Content="Green" Height="Auto" Width="Auto" Margin="2.0" Foreground="Green" FontSize="16" FontWeight="Bold"/>
+            <Button Content="Lime" Height="Auto" Width="Auto" Margin="2.0" Foreground="Lime" FontSize="16" FontWeight="Bold"/>
+            <Button Content="Yellow" Height="Auto" Width="Auto" Margin="2.0" Foreground="Yellow" FontSize="16" FontWeight="Bold"/>
+            <Button Content="Orange" Height="Auto" Width="Auto" Margin="2.0" Foreground="Orange" FontSize="16" FontWeight="Bold"/>
+            <Button Content="Red" Height="Auto" Width="Auto" Margin="2.0" Foreground="Red" FontSize="16" FontWeight="Bold"/>
+            <Button Content="Maroon" Height= "Auto" Width="Auto" Margin="2.0" Foreground="Maroon" FontSize="16" FontWeight="Bold"/>
+            <Button Content="Fuchsia" Height="Auto" Width="Auto" Margin="2.0" Foreground="Fuchsia" FontSize="16" FontWeight="Bold"/>
+            <Button Content="Purple" Height="Auto" Width="Auto" Margin="2.0" Foreground="Purple" FontSize="16" FontWeight="Bold"/>
+            <Button Content="Black" Height="Auto" Width="Auto" Margin="2.0" Foreground="Black" FontSize="16" FontWeight="Bold"/>
+            <Button Content="Silver" Height="Auto" Width="Auto" Margin="2.0" Foreground="Silver" FontSize="16" FontWeight="Bold"/>
+            <Button Content="Gray" Height="Auto" Width="Auto" Margin="2.0" Foreground="Gray" FontSize="16" FontWeight="Bold"/>
+            <Button Content="White" Height="Auto" Width="Auto" Margin="2.0" Foreground="White" FontSize="16" FontWeight="Bold"/>
+
+        </WrapPanel>
+
+    </Grid>
+</Window>
